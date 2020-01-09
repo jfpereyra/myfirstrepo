@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+    /* p:first-child {color: pink;}
+    p:last-child {color: brown;} */
+    /* p:nth-child(2n){color: red;}
+    p:nth-child(2n+1) {color: blue;}
+    p::first-letter{font-size: 20px;} */
+    /* body{margin: 0px;} Para quitar los margenes de todo el body */
+    .caja1{
+        width: 20px; 
+        height: 20px;
+        background-color: blue;
+        padding: 20px;
+        border: 2px solid red;
+        /* box-sizing: border-box;} Para que respete el tamaño original */
+        margin: 5px 2px 10px 2px; /* Empieza en top, luego right, etc. */
+    }
+    .caja2{
+        width: 30px;
+        height: 30px;
+        background-color: salmon;
+
+    }
+</style>
+<body>
+    <div class="caja1">Hola</div>
+    <div class="caja2"></div>
+</body>
+</html>
