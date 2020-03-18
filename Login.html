@@ -5,12 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="Styles.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
     <title>Login</title>
 </head>
 <body>
     <header class="header">
-        <img class="header__img" src="file:///D:/Repos/myfirstrepo/imagenes/logo_ejemplo.png">
+        <img class="header__img" tabindex="0" alt="logo" src="file:///D:/Repos/myfirstrepo/imagenes/logo_ejemplo.png">
         <div class="header__menu">
             <div class="header__menu--profile"> 
                 <img src="./imagenes/user-white.png" alt="Usuario">
@@ -24,11 +24,11 @@
     </header>
     <section class="login">
         <section class="login__container">
-            <h2>Inicia sesión</h2>
+            <h2 tabindex="0">Inicia sesión</h2>
             <form class="login__container--form">
-                <input class="input--email" type="email" placeholder="Correo">
-                <input class="input--password" type="password" placeholder="Cotraseña">
-                <button class="button-sesion" >Iniciar sesión</button>
+                <input class="input--loginform" type="email" placeholder="E-mail">
+                <input class="input--loginform" type="password" placeholder="Contraseña">
+                <button class="button--loginform" >Iniciar sesión</button>
                 <div class="login__container--rememberme">
                     <label> 
                         <input type="checkbox">Recuerdame
